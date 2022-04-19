@@ -16,4 +16,5 @@ A PHP library for the [Pushbullet](https://www.pushbullet.com/) API.
 $pb = new Pushbullet\Pushbullet($token);
 $pb->pushNote($title, $body);
 $pb->pushLink($title, $body, $url);
+$pb->pushFile($filePath, $title, $body);
 ```
